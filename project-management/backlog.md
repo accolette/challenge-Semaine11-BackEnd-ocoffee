@@ -64,7 +64,7 @@ Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQ
 
 * [X] Initialisation projet Node
 * [X] Installation Express
-* [ ] Configuration EJS
+* [X] Configuration EJS
 * [ ] Architecture MVC
 * [X] Organisation dossiers
 * [X] Mise en place `.env`

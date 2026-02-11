@@ -1,14 +1,22 @@
 // ================== IMPORTS ==================
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import express from "express";
 import "dotenv/config";
 
 // ================== SETTINGS ==================
 const app = express();
 const PORT = process.env.PORT;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// EJS initialisation
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+app.use(express.static(path.join(__dirname, "public")));
 
-// ================== APP ==================
+// ================== ROUTES ==================
 app.get("/", (req, res, next) => {
-  res.send("Yellow World");
+  res.render("home");
 });
 
 // ================== LISTENING ==================
