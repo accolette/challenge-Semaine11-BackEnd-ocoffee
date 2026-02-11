@@ -56,8 +56,8 @@ Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQ
 ## Modélisation
 
 * [X] Rédaction des User Stories
-* [ ] MCD
-* [ ] MLD
+* [X] MCD
+* [X] MLD
 * [ ] MPD
 
 ## Setup technique
