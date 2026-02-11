@@ -1,0 +1,29 @@
+{
+  "name": "sb04-ocoffee-accolette",
+  "version": "1.0.0",
+  "description": "[Le projet](./docs/demande-client/)",
+  "main": "./src/ocoffee.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node --watch ./src/ocoffee.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Helsinki/SB04-ocoffee-accolette.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/O-clock-Helsinki/SB04-ocoffee-accolette/issues"
+  },
+  "homepage": "https://github.com/O-clock-Helsinki/SB04-ocoffee-accolette#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
