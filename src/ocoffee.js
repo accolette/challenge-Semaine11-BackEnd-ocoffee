@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import express from "express";
 import "dotenv/config";
+import router from "./routes/router.js";
 
 // ================== SETTINGS ==================
 const app = express();
@@ -15,9 +16,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
 // ================== ROUTES ==================
-app.get("/", (req, res, next) => {
-  res.render("home");
-});
+app.use(router);
 
 // ================== LISTENING ==================
 app.listen(PORT, () => {
