@@ -21,8 +21,15 @@
     <!-- Common scripts -->
     <script defer src="../js/header.js"></script>
 
-    <!-- Style -->
-    <link rel="stylesheet" href="../css/<%= style %>.css" />
+    <!-- Special Style -->
+    <% if (style) { %>
+      <link rel="stylesheet" href="../css/<%= style %>.css" />
+    <% } %>
+    
+    <!-- Special Scripts -->
+    <% if (style) { %>
+      <script defer src="../js/<%= style %>.js"></script>
+    <% } %>
   </head>
 
   <body>
@@ -69,7 +76,7 @@
 
         <ul>
           <li><a href="/">Accueil</a></li>
-          <li><a href="/produits">Catalogue</a></li>
+          <li><a href="/catalogue">Catalogue</a></li>
           <li><a href="/boutique">Boutique</a></li>
         </ul>
       </nav>
