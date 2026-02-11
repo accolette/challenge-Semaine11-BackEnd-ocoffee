@@ -20,18 +20,18 @@ Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQ
 
 * [X] Route `GET /`
 * [X] Vue EJS accueil
-* [ ] Contenu présentation boutique
-* [ ] Lien vers catalogue
+* [X] Lien vers boutique
+* [X] Lien vers catalogue
 
 ## US-02 — Informations boutique
 
-* [ ] Route `GET /about`
+* [ ] Route `GET /boutique`
 * [ ] Vue EJS informations
 * [ ] Adresse + contact
 
 ## US-03 — Catalogue produits
 
-* [ ] Route `GET /products`
+* [ ] Route `GET /produits`
 * [ ] Affichage liste produits
 * [ ] Segmentation par catégorie
 
@@ -69,11 +69,11 @@ Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQ
 * [X] Organisation dossiers
 * [X] Mise en place `.env`
 * [X] Middleware gestion erreurs
-* [ ] Création des partials des pages
+* [X] Création des partials des pages
 
 ## Pages statiques
 
-* [ ] Accueil
+* [X] Accueil
 * [ ] Informations boutique
 * [ ] Catalogue (version statique)
 
