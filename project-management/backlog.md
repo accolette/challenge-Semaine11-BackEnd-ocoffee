@@ -25,9 +25,8 @@ Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQ
 
 ## US-02 — Informations boutique
 
-* [ ] Route `GET /boutique`
-* [ ] Vue EJS informations
-* [ ] Adresse + contact
+* [X] Route `GET /boutique`
+* [X] Vue EJS informations
 
 ## US-03 — Catalogue produits
 
@@ -41,13 +40,19 @@ Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQ
 * [ ] Vue détail produit
 * [ ] Gestion erreur si ID invalide
 
-## US-05 — Bonus : Admin gestion produits
+## US-05 — Bonus : Boutique : Map et formulaire de contact
+* [ ] Adresse + map
+* [ ] Formulaire de contact
+
+## US-06 — Bonus : Admin gestion produits
 
 * [ ] Formulaire création produit
 * [ ] Route `POST` création
 * [ ] Formulaire modification
 * [ ] Route `POST` modification
 * [ ] Validation des données
+
+## US-07 — Bonus : Ajustements DA intégration
 
 ---
 

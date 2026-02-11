@@ -1,6 +1,6 @@
 const homeController = {
   homePage(req, res, next) {
-    res.render("home");
+    res.render("home", { style: "home" });
   },
 };
 
