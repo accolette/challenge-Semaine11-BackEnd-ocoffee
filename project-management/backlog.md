@@ -2,7 +2,7 @@
 
 ## 🎯 Objectif
 
-Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQL, catalogue produits.
+Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogue produits.
 
 ---
 
@@ -117,9 +117,9 @@ Développer un site e-commerce simple en Express (MVC + EJS) avec base PostgreSQ
 
 # 📚 Documentation
 
-* [ ] Journal J1
+* [X] Journal J1
 * [ ] Journal J2
 * [ ] Journal J3
-* [ ] Mise à jour README
-* [ ] Structure documentation propre
+* [X] Mise à jour README
+* [X] Structure documentation propre
 

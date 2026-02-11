@@ -1,4 +1,4 @@
-# 📘 Project Log — Daily Tracking
+# 📘 Project Log — Daily Tracking - D1
 
 ---
 
@@ -14,11 +14,15 @@ Nom du projet : Ocoffe
 ## 📌 Contexte du jour
 
 Découverte du besoin, mise en place des fichiers de suivi, mise en place du projet.
+Création des pages statiques.
 
 ## 🔗 Références
 
 Backlog : [Lien ici](./backlog.md)  
-User Story : US-01 - 
+User Story : 
+- US-01 — Page d’accueil
+- US-02 — Informations boutique
+- US-03 — Catalogue produits
 
 ---
 
@@ -28,7 +32,7 @@ User Story : US-01 -
 
 * US
 * MCD / MLD / MPD
-* architecture Express MVC et EJS et rendu des pages statiques
+* Architecture Express MVC et EJS et rendu des pages statiques
 * Daily tracking
 
 ---
@@ -39,7 +43,11 @@ User Story : US-01 -
 
 ### 🔹 Dev
 
-*
+* Initialisation du projet
+* Mise en place d'express
+* Mise en place du moter de rendu EJS
+* Mise en place de l'architecture du projet
+* Création des routes et rendu des vues statiques
 
 ### 🔹 Gestion / Organisation
 
@@ -51,20 +59,16 @@ User Story : US-01 -
 
 # 3️⃣ Avancement
 
-* ✅ Tâches terminées :
-* 🟡 En cours :
-* ⏳ Restant à faire :
+* ✅ Tâches terminées : US 1 à 3
+* 🟡 En cours : RAS
+* ⏳ Restant à faire : US 4 à 7
 
 
 ---
 
 # 4️⃣ Problèmes / Blocages
 
-| Type            | Description | Impact |
-| --------------- | ----------- | ------ |
-| Tech            |             |        |
-| Fonctionnel     |             |        |
-| Organisationnel |             |        |
+RAS
 
 ---
 
@@ -73,47 +77,7 @@ User Story : US-01 -
 > Comment j’ai traité le problème / décisions prises.
 
 *
-*
 
 ---
 
-# 6️⃣ Décisions techniques
-
-* Choix :
-* Pourquoi :
-* Alternative envisagée :
-
----
-
-# 7️⃣ Points techniques travaillés
-
-*
-*
-*
-
----
-
-# 8️⃣ Prochaines actions
-
-Priorité 1 :  
-Priorité 2 :  
-Priorité 3 :  
-
----
-
-# 🧠 Apprentissage du jour
-
-> Notion, méthode, réflexion, amélioration personnelle.
-
-*
-*
-
----
-
-# 🔎 Auto-évaluation de 1 à 5
-
-Clarté des objectifs : ⭐⭐⭐⭐⭐  
-Concentration :  
-Blocages bien gérés :   
-
-Commentaire libre :
+# 🔎 Commentaire libre :
