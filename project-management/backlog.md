@@ -35,9 +35,9 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 
 ## US-04 — Détail produit
 
-* [ ] Route `GET /catalogue/produit:id`
-* [ ] Vue détail produit
-* [ ] Gestion erreur si ID invalide
+* [X] Route `GET /catalogue/produit:id`
+* [X] Vue détail produit
+* [X] Gestion erreur si ID invalide
 
 ## US-05 — Bonus : Boutique : Map et formulaire de contact
 * [ ] Adresse + map
@@ -99,10 +99,10 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 
 * [X] Récupération produits depuis BDD
 * [X] Injection données dans vues EJS
-* [ ] Détail produit dynamique
+* [X] Détail produit dynamique
 * [X] Gestion erreurs 404
 * [X] Gestion erreurs serveur 500
-* [ ] Ajout des données complètes des produits
+* [X] Ajout des données complètes des produits
 
 ---
 
@@ -120,7 +120,7 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 # 📚 Documentation
 
 * [X] Journal J1
-* [ ] Journal J2
+* [X] Journal J2
 * [ ] Journal J3
 * [X] Mise à jour README
 * [X] Structure documentation propre

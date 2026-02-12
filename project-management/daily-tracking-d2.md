@@ -8,14 +8,16 @@
 
 ## 🎯 Projet
 
-Nom du projet : Ocoffe
+Nom du projet : Ocoffee
 
+---
 
 ## 🔗 Références
 
-Backlog : [Lien ici](./backlog.md)  
-User Story : 
-- US-0
+Backlog : [Lien ici](./backlog.md)
+User Story :
+
+* US-04 — Détail produit
 
 ---
 
@@ -23,7 +25,7 @@ User Story :
 
 > Ce que je devais livrer ou faire avancer aujourd’hui.
 
-* Mise en place de la base de données + Dynamisation des pages.
+* Mise en place de la base de données + dynamisation des pages
 
 ---
 
@@ -33,31 +35,30 @@ User Story :
 
 ### 🔹 Dev
 
-* Mise en place de Postgresql
-* Création des scripts et des BDD
-* Mise en place du client via pg et du DataMapper
-* Création des requetes et dynamisation des vues
+* Mise en place de PostgreSQL
+* Création des scripts et des bases de données
+* Mise en place du client via `pg` et du DataMapper
+* Création des requêtes et dynamisation des vues
 * Création des pages pour chaque produit
 
 ### 🔹 Gestion / Organisation
 
 * Daily tracking Day 2
-* MaJ du backlog
+* Mise à jour du backlog
 
 ---
 
 # 3️⃣ Avancement
 
-* ✅ Tâches terminées : US 1 à 3
-* 🟡 En cours : 
-* ⏳ Restant à faire : US 
-
+* ✅ Tâches terminées : US 1 à 4
+* 🟡 En cours : US 5
+* ⏳ Restant à faire : US 5 à 7
 
 ---
 
 # 4️⃣ Problèmes / Blocages
 
-* Ralentissement au moment de la création du script de data a injecter dans le bdd.
+* Ralentissement au moment de la création du script de données à injecter dans la BDD, notamment sur la manière d’aller chercher les données entre les différentes tables
 
 ---
 
@@ -65,10 +66,10 @@ User Story :
 
 > Comment j’ai traité le problème / décisions prises.
 
-* Aide sur la correction pour l'écriture des commandes d'injection de données dans les BDD proprement
+* Aide de la correction pour l’écriture des commandes d’injection de données dans la BDD proprement
 
 ---
 
-# 🔎 Commentaire libre :
+# 🔎 Commentaire libre
 
-* J'ai fais une rapide mise en place de style pour la page détail d'un produit, mais sans y passer trop de temps afin de me fonction sur la mise en place des fonctionnalités back plus que front. En veillant tout de même au responsive
+* J’ai fait une rapide mise en place du style pour la page détail d’un produit, sans y passer trop de temps afin de me concentrer davantage sur la mise en place des fonctionnalités back que front, tout en veillant au responsive.

@@ -17,9 +17,13 @@
                 <%= item %>
                 <% } %>
                 </li>
-                <li><%= product.price %> €/kg</li>
+                <li><%= product.price %>€ / kg</li>
                 <li>Réfénce produit : <%= product.reference %></li>
-                <li>Disponible en boutique : <%= product.availability %></li>
+                <li>Disponible en boutique : 
+                  <% if (product.available == true) { %>
+                  Oui <% } else { %>
+                  Non
+                  <% } %>
               </ul>
             </article>
       </section>

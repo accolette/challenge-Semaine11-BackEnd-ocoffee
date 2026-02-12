@@ -24,7 +24,7 @@ const catalogController = {
     try {
       const product = await dataMapper.findOneProduct(productId);
       if (!product) {
-        return res.status(404).send("404 : Aucune donnée trouvé");
+        return next();
       }
       res.render("product.ejs", { style: "product", product });
     } catch (error) {
