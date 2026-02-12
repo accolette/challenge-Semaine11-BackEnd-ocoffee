@@ -55,6 +55,7 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 
 ## US-07 — Bonus : Ajustements DA intégration
 * [ ] Page détail d'un produit à retravailler
+* [ ] Voir la difference des images entre navigateurs
 
 ---
 
