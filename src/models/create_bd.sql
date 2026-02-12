@@ -1,15 +1,14 @@
-# Modèle physique de données
+BEGIN;
 
-```sql
+DROP TABLE IF EXISTS country CASCADE;
+DROP TABLE IF EXISTS coffee CASCADE;
+DROP TABLE IF EXISTS characteristic CASCADE;
+DROP TABLE IF EXISTS coffee_characteristic CASCADE;
 
-DROP TABLE IF EXISTS country;
-DROP TABLE IF EXISTS coffee;
-DROP TABLE IF EXISTS characteristic;
-DROP TABLE IF EXISTS coffee_characteristic;
 
 CREATE TABLE IF NOT EXISTS country (
     id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    name VARCHAR(50) NOT NULL,
+    name VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS coffee (
@@ -20,20 +19,20 @@ CREATE TABLE IF NOT EXISTS coffee (
     reference CHAR(9) NOT NULL UNIQUE,
     available BOOLEAN NOT NULL,
     country_id INT NOT NULL,
-    FOREIGN KEY (country_id) REFERENCES coutry(id),
+    FOREIGN KEY (country_id) REFERENCES country(id)
 );
 
 CREATE TABLE IF NOT EXISTS characteristic (
     id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    detail VARCHAR(30) NOT NULL,
+    detail VARCHAR(30) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS coffe_characteristic (
+CREATE TABLE IF NOT EXISTS coffee_characteristic (
     coffee_id INT NOT NULL,
     characteristic_id INT NOT NULL,
-    PRIMARY KEY (coffee_id, characteristic_id)
-    FOREIGN KEY (coffe_id) REFERENCES coffe(id),
-    FOREIGN KEY (characteristic_id) REFERENCES characteristic(id),
+    PRIMARY KEY (coffee_id, characteristic_id),
+    FOREIGN KEY (coffee_id) REFERENCES coffee(id),
+    FOREIGN KEY (characteristic_id) REFERENCES characteristic(id)
 );
 
-```
+COMMIT;

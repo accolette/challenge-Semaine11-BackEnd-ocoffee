@@ -1,7 +1,6 @@
 # Modèle physique de données
 
 ```sql
-
 DROP TABLE IF EXISTS country;
 DROP TABLE IF EXISTS coffee;
 DROP TABLE IF EXISTS characteristic;
@@ -20,7 +19,7 @@ CREATE TABLE IF NOT EXISTS coffee (
     reference CHAR(9) NOT NULL UNIQUE,
     available BOOLEAN NOT NULL,
     country_id INT NOT NULL,
-    FOREIGN KEY (country_id) REFERENCES (coutry),
+    FOREIGN KEY (country_id) REFERENCES coutry(id),
 );
 
 CREATE TABLE IF NOT EXISTS characteristic (
@@ -29,10 +28,10 @@ CREATE TABLE IF NOT EXISTS characteristic (
 );
 
 CREATE TABLE IF NOT EXISTS coffe_characteristic (
-    coffee_reference INT PRIMARY KEY NOT NULL,
-    characteristic_id INT PRIMARY KEY NOT NULL,
-    FOREIGN KEY (coffe_reference) REFERENCES (coffee),
-    FOREIGN KEY (characteristic_id) REFERENCES (characteristic),
+    coffee_id INT NOT NULL,
+    characteristic_id INT NOT NULL,
+    PRIMARY KEY (coffee_id, characteristic_id)
+    FOREIGN KEY (coffe_id) REFERENCES coffe(id),
+    FOREIGN KEY (characteristic_id) REFERENCES characteristic(id),
 );
-
 ```

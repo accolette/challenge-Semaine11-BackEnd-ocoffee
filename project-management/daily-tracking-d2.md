@@ -11,10 +11,6 @@
 Nom du projet : Ocoffe
 
 
-## 📌 Contexte du jour
-
-Mise en place de la base de données + Dynamisation des pages.
-
 ## 🔗 Références
 
 Backlog : [Lien ici](./backlog.md)  
@@ -27,7 +23,7 @@ User Story :
 
 > Ce que je devais livrer ou faire avancer aujourd’hui.
 
-* 
+* Mise en place de la base de données + Dynamisation des pages.
 
 ---
 
@@ -37,7 +33,11 @@ User Story :
 
 ### 🔹 Dev
 
-* 
+* Mise en place de Postgresql
+* Création des scripts et des BDD
+* Mise en place du client via pg et du DataMapper
+* Création des requetes et dynamisation des vues
+* Création des pages pour chaque produit
 
 ### 🔹 Gestion / Organisation
 
@@ -57,7 +57,7 @@ User Story :
 
 # 4️⃣ Problèmes / Blocages
 
-RAS
+Ralentissement au moment de la création du script de data a injecter dans le bdd : aide surla correction pour l'écriture des commandes porprement
 
 ---
 
