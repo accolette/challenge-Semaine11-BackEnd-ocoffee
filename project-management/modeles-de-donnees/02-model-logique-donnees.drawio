@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="jpjzEegiWulFBo4ZuaUg" name="Page-1">
-        <mxGraphModel dx="481" dy="250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="466" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -34,7 +34,7 @@
                 <mxCell id="21" value="coffee_characteristic" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="150" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;div&gt;&lt;u&gt;coffee_reference&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;characteristic_id&lt;/u&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+                <mxCell id="22" value="&lt;div&gt;&lt;u&gt;coffee_id&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;characteristic_id&lt;/u&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="180" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=0.01;exitY=0.387;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="22" target="7" edge="1">

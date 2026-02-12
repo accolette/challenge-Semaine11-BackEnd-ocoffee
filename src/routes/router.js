@@ -10,5 +10,6 @@ import catalogController from "../controllers/catalog.controller.js";
 router.get("/", homeController.homePage);
 router.get("/boutique", shopController.shopPage);
 router.get("/catalogue", catalogController.catalogPage);
+router.get("/catalogue/produit:id", catalogController.productPage);
 
 export default router;

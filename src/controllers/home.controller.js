@@ -5,7 +5,7 @@ const homeController = {
     try {
       let newProducts = await dataMapper.findNewProductsHp();
       if (!newProducts || newProducts.length === 0) {
-        return res.status(404).send("Aucune donnée trouvé");
+        return res.status(404).send("404 : Aucune donnée trouvé");
       }
       res.render("home", {
         style: "home",

@@ -101,6 +101,7 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 * [ ] Détail produit dynamique
 * [X] Gestion erreurs 404
 * [X] Gestion erreurs serveur 500
+* [ ] Ajout des données complètes des produits
 
 ---
 
