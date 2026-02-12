@@ -3,7 +3,7 @@ import dataMapper from "../models/dataMapper.js";
 const homeController = {
   homePage: async (req, res, next) => {
     try {
-      let newProducts = await dataMapper.newProductsHomePage();
+      let newProducts = await dataMapper.findNewProductsHp();
       if (!newProducts || newProducts.length === 0) {
         return res.status(404).send("Aucune donnée trouvé");
       }

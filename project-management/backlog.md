@@ -96,11 +96,11 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 
 # ⚙️ 4. Dynamisation (J2)
 
-* [ ] Récupération produits depuis BDD
-* [ ] Injection données dans vues EJS
+* [X] Récupération produits depuis BDD
+* [X] Injection données dans vues EJS
 * [ ] Détail produit dynamique
-* [ ] Gestion erreurs 404
-* [ ] Gestion erreurs serveur 500
+* [X] Gestion erreurs 404
+* [X] Gestion erreurs serveur 500
 
 ---
 
