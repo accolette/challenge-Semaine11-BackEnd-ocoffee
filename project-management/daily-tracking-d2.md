@@ -57,7 +57,7 @@ User Story :
 
 # 4️⃣ Problèmes / Blocages
 
-Ralentissement au moment de la création du script de data a injecter dans le bdd : aide surla correction pour l'écriture des commandes porprement
+* Ralentissement au moment de la création du script de data a injecter dans le bdd.
 
 ---
 
@@ -65,7 +65,7 @@ Ralentissement au moment de la création du script de data a injecter dans le bd
 
 > Comment j’ai traité le problème / décisions prises.
 
-*
+* Aide sur la correction pour l'écriture des commandes d'injection de données dans les BDD proprement
 
 ---
 

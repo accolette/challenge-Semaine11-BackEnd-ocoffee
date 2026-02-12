@@ -88,9 +88,9 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 * [X] Création base PostgreSQL
 * [x] Script création tables
 * [X] Relations clés étrangères
-* [ ] Seed données test
-* [ ] Connexion via `pg`
-* [ ] Mise en place DataMapper
+* [X] Seed données test
+* [X] Connexion via `pg`
+* [X] Mise en place DataMapper
 
 ---
 
