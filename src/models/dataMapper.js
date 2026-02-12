@@ -35,8 +35,8 @@ const dataMapper = {
     GROUP BY c.id, c.reference, c.name, c.description, c.price, c.available, count.name
     `;
     let result = await client.query(query);
-    console.log(result.rows);
-    return result.rows;
+    console.log(result.rows[0]);
+    return result.rows[0];
   },
 };
 

@@ -2,29 +2,26 @@
 <%- include ('partials/header.ejs') %>
 
     <main>
-          <section id="catalog">
-        <h1>Notre catalogue</h1>
-
-        <div class="articles only-display-3-articles" id="articles-list">
-          <% for (const product of products) { %>
-          <article>
-            <img
+          <section id="product">
+            <article>
+              <img
               src="../images/coffees/<%= product.reference %>.png"
               alt="<%= product.name %>"
-            />
-            <div>
-              <h2><%= product.name %></h2>
-              <p>Origine <%= product.origin %></p>
-              <p><%= product.price %> €/kg</p>
-              <a class="button-outline" href="/catalogue/produit<%= product.id%>">Voir le détail</a>
-            </div>
-          </article>
-          <% } %>
-        </div>
-
-        <button class="button" id="see-all-products-button">
-          Voir tous les produits
-        </button>
+              />
+              <h1><%= product.name %></h1>
+              <ul>
+                <li id="description"><%= product.description %></li>
+                <li>Origine <%= product.origin %></li>
+                <li>Cacractéristiques principale(s) : 
+                <% for (const item of product.characteristic) { %>
+                <%= item %>
+                <% } %>
+                </li>
+                <li><%= product.price %> €/kg</li>
+                <li>Réfénce produit : <%= product.reference %></li>
+                <li>Disponible en boutique : <%= product.availability %></li>
+              </ul>
+            </article>
       </section>
     </main>
 

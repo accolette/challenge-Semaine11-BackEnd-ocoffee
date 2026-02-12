@@ -70,3 +70,5 @@ User Story :
 ---
 
 # 🔎 Commentaire libre :
+
+* J'ai fais une rapide mise en place de style pour la page détail d'un produit, mais sans y passer trop de temps afin de me fonction sur la mise en place des fonctionnalités back plus que front. En veillant tout de même au responsive
