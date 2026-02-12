@@ -40,8 +40,10 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 * [X] Gestion erreur si ID invalide
 
 ## US-05 — Bonus : Boutique : Map et formulaire de contact
-* [ ] Adresse + map
+* [X] Adresse + map
 * [ ] Formulaire de contact
+* [ ] Lire la suite pour les contenu de présentation
+* [ ] Ajout de photos
 
 ## US-06 — Bonus : Admin gestion produits
 

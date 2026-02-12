@@ -30,6 +30,14 @@
     <% if (style) { %>
       <script defer src="../js/<%= style %>.js"></script>
     <% } %>
+
+    <!-- MAP Style and Scipts -->
+    <% if (style === 'shop') { %>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+      <script defer src="../js/map.js"></script>
+    <% } %>
   </head>
 
   <body>

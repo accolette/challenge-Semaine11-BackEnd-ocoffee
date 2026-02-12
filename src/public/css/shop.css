@@ -37,8 +37,13 @@
 }
 
 /* ======== H2 Section ======== */
-#atmosphere h2,
-#makers h2 {
+#map {
+  height: 20rem;
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+h2 {
   font-size: 2.5rem;
   font-weight: bold;
 }
