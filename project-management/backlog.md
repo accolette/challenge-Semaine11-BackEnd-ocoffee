@@ -45,7 +45,7 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 * [X] Ajout de photos
 * [X] Formulaire de contact
 * [X] Route `POST` soumission du message
-* [ ] Sauvegarde des données message dans la BDD.
+* [X] Sauvegarde des données message dans la BDD.
 
 ## US-06 — Bonus : Admin gestion produits
 
@@ -115,7 +115,8 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 
 * [X] Création des BD msg clients
 * [X] Validation côté serveur
-* 
+* [X] Injection msg formulaire dans la BDD
+* [ ] CRUD Admin complet
 * [ ] Nettoyage code
 * [ ] Vérification architecture
 * [ ] README finalisé

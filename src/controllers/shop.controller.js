@@ -1,3 +1,5 @@
+import dataMapper from "../models/dataMapper.js";
+
 const shopController = {
   shopPage: (req, res, next) => {
     res.render("shop", { style: "shop" });
@@ -7,26 +9,26 @@ const shopController = {
     res.render("thankyou", { style: "shop" });
   },
 
-  formPart: (req, res, next) => {
-    const contactData = req.body;
-    console.log(contactData);
+  formPart: async (req, res, next) => {
+    const clientDataMsg = req.body;
+    console.log(clientDataMsg);
     // Check informations format
     const errors = {};
     let isOk = true;
 
-    if (!contactData.first_name) {
+    if (!clientDataMsg.first_name) {
       isOk = false;
       errors.first_name = "Le prénom est obligatoire";
     }
-    if (!contactData.last_name) {
+    if (!clientDataMsg.last_name) {
       isOk = false;
       errors.last_name = "Le nom est obligatoire";
     }
-    if (!contactData.email) {
+    if (!clientDataMsg.email) {
       isOk = false;
       errors.email = "L'email est obligatoire au format nom@mail.com";
     }
-    if (!contactData.message || contactData.message.length > 1500) {
+    if (!clientDataMsg.message || clientDataMsg.message.length > 1500) {
       isOk = false;
       errors.message =
         "Le message est obligatoire et doit faire au maximum 1 500 caractères";
@@ -34,11 +36,17 @@ const shopController = {
     if (!isOk) {
       res.render("shop", {
         style: "shop",
-        data: contactData,
+        data: clientDataMsg,
         errors,
       });
     } else {
-      res.redirect("/boutique/merci#contact-form");
+      try {
+        const pushData = await dataMapper.sendClientMsg(clientDataMsg);
+        res.redirect("/boutique/merci#contact-form");
+      } catch (error) {
+        console.error(error);
+        res.status(500).send("Erreur serveur");
+      }
     }
   },
 };
