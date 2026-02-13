@@ -4,6 +4,7 @@ DROP TABLE IF EXISTS country CASCADE;
 DROP TABLE IF EXISTS coffee CASCADE;
 DROP TABLE IF EXISTS characteristic CASCADE;
 DROP TABLE IF EXISTS coffee_characteristic CASCADE;
+DROP TABLE IF EXISTS client_message CASCADE;
 
 
 CREATE TABLE IF NOT EXISTS country (
@@ -33,6 +34,14 @@ CREATE TABLE IF NOT EXISTS coffee_characteristic (
     PRIMARY KEY (coffee_id, characteristic_id),
     FOREIGN KEY (coffee_id) REFERENCES coffee(id),
     FOREIGN KEY (characteristic_id) REFERENCES characteristic(id)
+);
+
+CREATE TABLE IF NOT EXISTS client_message (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(128) NOT NULL,
+    message TEXT
 );
 
 COMMIT;

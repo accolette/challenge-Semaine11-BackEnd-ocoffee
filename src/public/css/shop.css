@@ -1,15 +1,17 @@
-/* ======== About Section ======== */
+/* ======== Commons ======== */
 
-#about {
+#about,
+#atmosphere,
+#makers {
   display: flex;
   justify-content: space-between;
   gap: 5rem;
 }
 
-#about img {
+img {
   border-radius: 0.7rem;
   object-fit: cover;
-  width: 50%;
+  width: 50vw;
   max-width: 650px;
 }
 
@@ -18,6 +20,8 @@
     display: none;
   }
 }
+
+/* ======== About Section ======== */
 
 #about h1 {
   font-size: 2.5rem;
@@ -36,7 +40,7 @@
   width: fit-content;
 }
 
-/* ======== H2 Section ======== */
+/* ======== Content Section ======== */
 #map {
   height: 20rem;
   width: 100%;
@@ -57,9 +61,36 @@ h2 {
   text-align: justify;
 }
 
+/* Bonus : hide all p after the 3rd one until the user clicks the button to display more */
+.only-display-3-p p:nth-child(n + 3) {
+  display: none;
+}
+
 @media screen and (max-width: 1280px) {
   #atmosphere img,
   #makers img {
     display: none;
   }
+}
+
+/* ======== Form Section ======== */
+#contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+textarea {
+  border-radius: 0.5rem;
+  height: 8rem;
+  padding: 0.5rem;
+  overflow: scroll;
+  resize: none;
 }
