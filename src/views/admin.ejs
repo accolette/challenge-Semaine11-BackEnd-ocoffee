@@ -1,0 +1,66 @@
+<!-- Header Partial -->
+<%- include ('partials/header.ejs') %>
+
+    <main>
+      <section>
+        <h1> Page Administateur </h1>
+      </section>
+
+      <section>
+        <h2>Ajouter un nouveau produit</h2>
+        <form id="add-coffee" method="POST" action="/admin/done">
+          <label for="name">Nom :
+          </label>
+          <input type="text" id="name" name="name" placeholder="ex : Espresso">
+          
+          <label for="reference"> Référence de 9 chiffres :
+          </label>
+          <input type="text" id="reference" name="reference" placeholder="ex : 012345678">
+          
+          <label for="price">Prix au kilo :
+          </label>
+          <input type="price" id="price" name="price" placeholder="ex : 19.95">
+          
+          <label for="description">Description du produit:
+          </label>
+          <textarea id="description" name="description"></textarea>
+
+          <label for="available"> Disponible en boutique :
+          <input type="radio" name="available" value="true"> Oui
+          <input type="radio" name="available" value="false"> Non
+          </label>
+
+          <label for="country"> Pays d'origine : 
+          <select name="country"> 
+            <option value="Test">Test</option>
+            <option value="Test2">Test2</option>
+          </select>
+          </label>
+
+          <label for="detail"> Caractréristiques du produit :
+          <input type="checkbox" name="detail" value="Info1"> Info1
+          <input type="checkbox" name="detail" value="Info2"> Info2
+          </label>
+
+          <button type="submit" class="button">Envoyer</button>
+        </form>
+      </section>
+
+
+      <section id="read-msg">
+        <div>
+          <h2>Les derniers messages clients</h2>
+          <% for (const message of clientsMessages) { %>
+            <article>
+              <h3>De : <%= message.first_name %> <%= message.last_name %></h3>
+              <p><%= message.message %></p>
+              <p>Mail : <%= message.email %></p>
+            </article>
+          <% } %>
+        </div>
+      </section>
+    </main>
+    
+
+<!-- Footer Partial -->
+<%- include ('partials/footer.ejs') %>
