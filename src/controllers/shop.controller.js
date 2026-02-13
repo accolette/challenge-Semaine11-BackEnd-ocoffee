@@ -11,7 +11,6 @@ const shopController = {
 
   formPart: async (req, res, next) => {
     const clientDataMsg = req.body;
-    console.log(clientDataMsg);
     // Check informations format
     const errors = {};
     let isOk = true;

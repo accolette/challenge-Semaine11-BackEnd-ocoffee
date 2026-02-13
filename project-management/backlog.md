@@ -35,7 +35,7 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL et catalo
 
 ## US-04 — Détail produit
 
-* [X] Route `GET /catalogue/produit/:id`
+* [X] Route `GET /catalogue/produit:id`
 * [X] Vue détail produit
 * [X] Gestion erreur si ID invalide
 
@@ -126,7 +126,7 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL et catalo
 * [X] Injection messages formulaire dans la BDD
 * [X] Page admin pour consulter les messages clients
 * [ ] CRUD Admin complet
-* [ ] Nettoyage code
+* [X] Nettoyage code
 * [X] Vérification architecture
 * [X] README finalisé
 * [X] Carnet de bord complété

@@ -6,7 +6,6 @@ const dataMapper = {
     const query =
       "SELECT id, name, reference FROM coffee ORDER BY id DESC LIMIT 3";
     let result = await client.query(query);
-    console.log(result.rows);
     return result.rows;
   },
 
@@ -18,13 +17,11 @@ const dataMapper = {
     JOIN country count ON c.country_id = count.id
     `;
     let result = await client.query(query);
-    console.log(result.rows);
     return result.rows;
   },
 
   // SHOW ONE PRODUCT
   findOneProduct: async (productId) => {
-    console.log(productId);
     const query = `
     SELECT c.id, c.reference, c.name, c.description, c.price, c.available, count.name AS origin, ARRAY_AGG(ch.detail) AS characteristic 
     FROM coffee c
@@ -35,7 +32,6 @@ const dataMapper = {
     GROUP BY c.id, c.reference, c.name, c.description, c.price, c.available, count.name
     `;
     let result = await client.query(query, [productId]);
-    console.log(result.rows[0]);
     return result.rows[0];
   },
 
@@ -57,7 +53,6 @@ const dataMapper = {
     SELECT * FROM client_message;
     `;
     const result = await client.query(check);
-    console.log(result.rows);
   },
 };
 

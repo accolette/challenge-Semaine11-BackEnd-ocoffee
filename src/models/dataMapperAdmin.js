@@ -5,7 +5,6 @@ const dataMapperAdmin = {
   findClientsMessages: async () => {
     const query = "SELECT * FROM client_message ORDER BY id DESC";
     let result = await client.query(query);
-    console.log(result.rows);
     return result.rows;
   },
 };
