@@ -36,11 +36,13 @@ User Story :
 
 ### 🔹 Dev
 
-* 
+* création du formulaire et de la vue pour message de contact bien recu
+* gestion des routes pour la soumission du formulaire
+* gestion de erreurs de saisie du formulaire côté serveur (simplement champs vides, voir pour check securité plus serieux par la suite)
+* redirection avec re remplissage des champs correctement complétés.
 
 ### 🔹 Gestion / Organisation
 
-* Reprise des modéles de données pour ajout des BD admin et msg client
 * Daily tracking Day 3
 * Mise à jour du backlog
 
@@ -56,7 +58,7 @@ User Story :
 
 # 4️⃣ Problèmes / Blocages
 
-* Dans le formulaire d econytact prbleme pour la récupération des données du POST, l'objet req body était vide.
+* 1 : Dans le formulaire de contact prbleme pour la récupération des données du POST, l'objet req body était vide.
 
 ---
 
@@ -64,7 +66,7 @@ User Story :
 
 > Comment j’ai traité le problème / décisions prises.
 
-* Aide avec chatGpt : oublie de l'attribut name dans les inputs
+* 1 : Aide avec chatGpt : oublie de l'attribut name dans les inputs
 
 ---
 

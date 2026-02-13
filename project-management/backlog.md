@@ -41,9 +41,11 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 
 ## US-05 — Bonus : Boutique : Map et formulaire de contact
 * [X] Adresse + map
-* [ ] Formulaire de contact
 * [X] Lire la suite pour les contenu de présentation
 * [X] Ajout de photos
+* [X] Formulaire de contact
+* [X] Route `POST` soumission du message
+* [ ] Sauvegarde des données message dans la BDD.
 
 ## US-06 — Bonus : Admin gestion produits
 
@@ -111,13 +113,21 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL, catalogu
 
 # 🚀 5. Finalisation (J3)
 
-* [ ] Création des BD msg clients
-* [ ] CRUD Admin complet
-* [ ] Validation côté serveur
+* [X] Création des BD msg clients
+* [X] Validation côté serveur
+* 
 * [ ] Nettoyage code
 * [ ] Vérification architecture
 * [ ] README finalisé
 * [ ] Carnet de bord complété
+
+---
+
+# 🗓️ 6. ToDo post spint du projet :
+
+* [ ] Check securité du formulaire plus solide
+* [ ] CRUD Admin complet
+
 
 ---
 
