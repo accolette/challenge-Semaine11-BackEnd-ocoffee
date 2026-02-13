@@ -31,6 +31,17 @@
       <script defer src="../js/<%= style %>.js"></script>
     <% } %>
 
+    <% if (locals?.errors) { %>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const form = document.getElementById('contact-form');
+          if (form) {
+            form.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      </script>
+    <% } %>
+
     <!-- MAP Style and Scipts -->
     <% if (style === 'shop') { %>
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
