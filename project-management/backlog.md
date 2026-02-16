@@ -137,6 +137,8 @@ Développer un site simple en Express (MVC + EJS) avec base PostgreSQL et catalo
 
 * [ ] Vérification sécurité du formulaire plus solide
 * [ ] CRUD Admin complet (US-6)
+* [ ] Faire évoluer le dataMapper avec l'usage des models de la POO vue par la suite en cours
+* [ ] Création d'un filtre pour affichage des produits selon caracteristiques principales.
 
 ---
 

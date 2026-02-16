@@ -4,7 +4,7 @@
 
 ## 🇫🇷 Présentation / English below 👇
 
-Projet réalisé dans le cadre de ma formation, visant à créer un site web de présentation pour la boutique **O'Coffee**.  
+Projet réalisé dans le cadre du module 11/25 de la formation, visant à créer un site web de présentation pour la boutique **O'Coffee**.  
 
 L’objectif principal est de permettre aux visiteurs de :  
 - découvrir la boutique et son univers,  
@@ -43,7 +43,7 @@ Le projet met l’accent sur la **maîtrise d’Express**, la structuration MVC,
 
 ## 🎬 Démo
 
-![GIF de présentation — A venir](#) <!-- GIF à insérer ici -->
+![GIF de présentation — A venir](./src/public/demo.gif)
 
 ---
 
@@ -62,7 +62,10 @@ Le projet met l’accent sur la **maîtrise d’Express**, la structuration MVC,
 
 - Finalisation du CRUD Admin pour la gestion des produits  
 - Sécurisation complète du formulaire client  
-- Ajout de nouvelles fonctionnalités front-end interactives  
+- Faire évoluer le dataMapper avec l'usage des models de la POO vue par la suite en cours
+- Ajout de nouvelles fonctionnalités front-end interactives 
+- Création d'un filtre pour affichage des produits selon caracteristiques principales.
+
 
 ---
 
@@ -97,7 +100,7 @@ npm run dev
 
 ## 🇬🇧 Presentation
 
-Project developed as part of a training exercise, focused on building a showcase website for the **O'Coffee** boutique.  
+Project developed during module 11 out of 25 of the training, focused on building a showcase website for the **O'Coffee** boutique.  
 
 The main goal is to allow visitors to:  
 - explore the boutique and its universe,  
@@ -136,7 +139,7 @@ The project focuses on mastering **Express**, MVC architecture, PostgreSQL data 
 
 ## 🎬 Demo
 
-![Demo GIF — A venir](#) <!-- GIF à insérer ici -->
+![Demo GIF — A venir](./src/public/demo.gif)
 
 ---
 
@@ -155,6 +158,7 @@ The project focuses on mastering **Express**, MVC architecture, PostgreSQL data 
 
 - Completion of Admin CRUD for products  
 - Full security for the client form  
+- Evolve the dataMapper by using object-oriented models introduced later in the course
 - Additional interactive front-end features  
 
 ---
