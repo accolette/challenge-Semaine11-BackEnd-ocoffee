@@ -62,7 +62,7 @@ Le projet met l’accent sur la **maîtrise d’Express**, la structuration MVC,
 
 - Finalisation du CRUD Admin pour la gestion des produits  
 - Sécurisation complète du formulaire client  
-- Faire évoluer le dataMapper avec l'usage des models de la POO vue par la suite en cours
+- Faire évoluer le dataMapper vers l'ORM Sequelize vu par la suite en cours
 - Ajout de nouvelles fonctionnalités front-end interactives 
 - Création d'un filtre pour affichage des produits selon caracteristiques principales.
 
@@ -158,7 +158,7 @@ The project focuses on mastering **Express**, MVC architecture, PostgreSQL data 
 
 - Completion of Admin CRUD for products  
 - Full security for the client form  
-- Evolve the dataMapper by using object-oriented models introduced later in the course
+- Evolve the dataMapper toward the Sequelize ORM introduced later in the course.
 - Additional interactive front-end features  
 
 ---
